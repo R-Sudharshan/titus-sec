@@ -1,0 +1,17 @@
+{
+  "name": "mcp-ide-backend",
+  "version": "1.0.0",
+  "description": "Node/Express backend for MCP Security IDE",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
